@@ -1,0 +1,11 @@
+class person():
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+person=person("rohith",19)
+print(person.name)
+    
+def get_name(person):
+    return person.name
+person=person("rohith",19)
+get_name(person) 
